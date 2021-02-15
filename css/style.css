@@ -1,0 +1,90 @@
+body {
+    background: url('../images/watermark.png') repeat;
+}
+
+body * {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently*/
+}
+
+.headerContainer {
+    background: #c93e4b;
+    opacity: .9;
+}
+
+.date {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    padding: 18px 10px;
+    width: 25%;
+    color: #fff;
+    float: right;
+    background: #5a5a5a;
+    font-size: 12px;
+}
+
+.date input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    width: 60px;
+}
+
+.date:before {
+    content: '';
+    position: absolute;
+    left: -54px;
+    top: 0;
+    height: 0;
+    width: 0;
+    border-top: 27px transparent solid;
+    border-bottom: 26px #5a5a5a solid;
+    border-left: 27px transparent solid;
+    border-right: 27px #5a5a5a solid;
+}
+
+.footerContainer {
+    background: #433f3f;
+    color: #fff;
+    font-size: 12px;
+    padding: 20px 50px;
+    opacity: 0.9;
+}
+
+.logo {
+    overflow: hidden;
+}
+
+.logo img {
+    padding: 10px 50px;
+    width: 150px;
+    z-index: 999;
+}
+
+.logoCon {
+    float: left;
+}
+
+@media only screen and (max-width: 375px) {
+    .logo img {
+        padding: 12px 15px;
+        width: 125px;
+    }
+
+    .date {
+        background: #5a5a5a;
+        font-size: 11px;
+        padding: 19px 15px;
+        width: 34%;
+    }
+
+    .footerContainer  {
+        padding: 10px 10%;
+    }
+  }
