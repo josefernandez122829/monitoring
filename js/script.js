@@ -11,4 +11,10 @@ document.getElementById('datepicker').value = today;
 console.log(today);
 
 $('#datepicker').datepicker();
+
+$('#datepicker').click(function() {
+    $('#ui-datepicker-div').show();
+});
+
+
 });

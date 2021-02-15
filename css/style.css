@@ -1,5 +1,6 @@
 body {
     background: url('../images/watermark.png') repeat;
+    position: relative;
 }
 
 body * {
@@ -74,6 +75,24 @@ body * {
 section {
     padding: 50%;
     background: #fff;
+}
+
+.ui-datepicker {
+    display: none;
+}
+
+body .ui-datepicker {
+    left: 0 !important;
+    right: 10px !important;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #cf525d;
+}
+
+.ui-datepicker-calendar td {
+    border: 1px solid;
+    padding: 2px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 425px) {
