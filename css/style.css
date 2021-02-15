@@ -71,7 +71,7 @@ body * {
     float: left;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
     .logo img {
         padding: 12px 15px;
         width: 125px;
