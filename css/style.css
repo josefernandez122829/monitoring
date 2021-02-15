@@ -85,6 +85,7 @@ body * {
     }
 
     .footerContainer  {
+        text-align: center;
         padding: 10px 10%;
     }
 
